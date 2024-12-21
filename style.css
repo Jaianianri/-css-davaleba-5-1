@@ -3,24 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
-body { 
+
+body {
     background: #07081A;
 }
-header { 
+
+header {
     display: flex;
     justify-content: center;
     border-bottom: 1px solid #261C51;
-    padding: 20px 0;
+    padding: 24px 0;
 }
-.container { 
+
+.container {
     max-width: 1040px;
     width: 100%;
 }
+
 .header-container {
     color: #FFF;
     background-color: black;
     display: flex;
-    justify-content: space-between  ;
+    justify-content: space-between;
 
 }
 
@@ -106,9 +110,65 @@ span {
     display: flex;
     text-align: center;
 }
+
 .logo {
     display: flex;
     flex-wrap: nowrap;
     flex-wrap: wrap;
     gap: 90px;
+    margin-top: 88px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    justify-content: center;
+    padding: 24px 0;
+    margin-top: 88px;
+}
+
+.langige {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    max-width: 304px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.Ruby {
+    color: #C0C0C0;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 260px;
+    width: 100%;
+    margin-top: 16px;
+}
+
+.rights {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+   
+    font-weight: 500;
+}
+
+.footer-box {
+    display: flex;
+    padding: 24px 0;
+    justify-content: space-around;
+    margin-top: 88px;
+    border-top: 1px solid #261C51;
+    
+
+}
+
+.image {
+    gap: 24px;
+    display: flex;
+    align-items: center;
 }
