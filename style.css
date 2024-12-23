@@ -116,16 +116,13 @@ span {
     flex-wrap: nowrap;
     flex-wrap: wrap;
     gap: 90px;
-    margin-top: 88px;
 }
 
 .card {
     display: flex;
     align-items: center;
     gap: 64px;
-    justify-content: center;
-    padding: 24px 0;
-    margin-top: 88px;
+    justify-content: space-between;
 }
 
 .langige {
@@ -142,9 +139,6 @@ span {
     font-family: Inter;
     font-size: 14px;
     font-style: normal;
-    font-weight: 400;
-    max-width: 260px;
-    width: 100%;
     margin-top: 16px;
 }
 
@@ -160,15 +154,33 @@ span {
 .footer-box {
     display: flex;
     padding: 24px 0;
-    justify-content: space-around;
-    margin-top: 88px;
-    border-top: 1px solid #261C51;
+    justify-content: space-between;
+   
+   
     
 
 }
-
+.big-container { 
+    display: flex;
+    justify-content: center;
+}
+.main-wrapper { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 88px;
+}
 .image {
     gap: 24px;
     display: flex;
     align-items: center;
+}
+footer {
+    margin-top: 88px;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #261C51;
+}
+.daploy {
+    padding: 16px 24px;
 }
